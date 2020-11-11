@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CSE | GALLERY</title>
+  <link rel="shortcut icon" href="aiht.jpg">
+	<style type="text/css">
+		.header{
+			background-color:  #2d545e;
+ 		    text-align: center;
+  			padding: 20px;
+		}
+		.topnav {
+  overflow:hidden;
+  background-color: #2d545e;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #F1F1F1;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color:#e1b382;
+  color:black;
+}
+ * {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+	</style>
+</head>
+<body>
+  <body bgcolor=" #e1b382">
+<div class="header">
+	 <img src="logo.png">
+	 <div class="topnav">
+	 	<a href="new.html">Home</a>
+	 	<a href="hod.html">HOD's Desk</a>
+	 	<a href="notes.html">Notes</a>
+	 	<a href="#">Faculties</a>
+	 	<a href="placement.html">Placements</a>
+	 	<a href="#">Contact us</a>
+	 </div>
+  </div>
+	 <center><h1>GALLERY</h1></center>
+	 <div class="row">
+  <div class="column">
+  	    <img src="" width="133.3px" height="150px">
+        <img src="" width="133.3px" height="150px">
+    	<img src="" width="133.3px" height="150px">
+    	<img src="" width="133.3px" height="150px">
+  </div>
+</div>
+<body bgcolor="#F1F1F1">
+</body>
+</html>

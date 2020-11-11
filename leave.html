@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>AIHT | Home</title>
+		<link rel="shortcut icon" href="aiht.jpg">
+		<style>
+		.header {
+  			background-color:  #2d545e;
+ 		    text-align: center;
+  			padding: 20px;
+				}
+.column {
+  float: left;
+  width: 23.33%;
+  padding: 15px;
+  background-color:#F5F5DC;
+}
+	.footer {
+  background-color: #F1F1F1;
+  text-align: center;
+  padding: 10px;
+}
+.topnav {
+  overflow:hidden;
+  background-color: #2d545e;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #F1F1F1;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color:#e1b382;
+  color:black;
+}
+body, html {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+.bg-img {
+  /* The image used */
+  background-image: url("aiht.jpg");
+
+  min-height:450px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Add styles to the form container */
+.container {
+  position: absolute;
+  right: 0;
+  margin: 20px;
+  max-width: 300px;
+  padding: 16px;
+  background-color: white;
+}
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: #DB7093;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+</style>
+</head>
+<body>
+	<body bgcolor="#e1b382">
+<div class="header">
+	 <img src="E:\Mini project\Photos\logo.png">
+    <center><h1 style="color:white">DEPARTMENT OF COMPUTER SCIENCE AND ENGINEERING</h1></center><hr>
+		 <div class="topnav">
+	 	<a href="new.html">Home</a>
+    <a href="milestones.html">Milestones</a>
+    <a href="E:\Mini project\pages\hod.html">HOD's Desk</a>
+    <a href="E:\Mini project\pages\notes.html">Notes</a>
+    <a href="E:\Mini project\pages\faculty.html">Faculties</a>
+    <a href="E:\Mini project\pages\placement.html">Placements</a>
+    <a href="facilities.html">Facilities</a>
+    <a href="#">Contact us</a>
+    <a href="E:\Mini project\pages\gallery.html">Gallery</a>
+    <a href="#">Leave Application</a>
+    <a href="stud.html">Students Activities</a>
+    <a href="dept.html">Department Activities</a>
+	 </div>
+   <hr>
+    </div>
+	 <center><h1 style="color:black">LEAVE APPLICATION</h1></center>
+	 	<div class="bg-img">
+	 <form action="E:\Mini project\pages\submit.html" class="container">
+  <label for="fname"><b>Name</b></label></label>
+  <input type="text" id="fname" name="fname" placeholder="Enter name" required><br><br>
+  <label for="year"><b>Year</b></label>
+  <input type="text" id="year" name="year" maxlength="1" placeholder="Enter year" required><br><br>
+  <label for="leave"><b>Reason for Leave</b></label>
+  <input type="text" id="leave" name="leave" placeholder="Reason" required><br><br>
+  <button type="submit"class="btn">Submit</button>
+</form>
+</div>
+</body>
+</html>
